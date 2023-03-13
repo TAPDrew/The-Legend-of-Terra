@@ -4,8 +4,7 @@ using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace Testmod.Items.Tools
-{
+namespace The-Legend-of-Terra.content.Items.Tools
 	public class GoldDiggingClaws : ModItem
 	{
 		public override void SetStaticDefaults()
