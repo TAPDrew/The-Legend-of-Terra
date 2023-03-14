@@ -8,7 +8,7 @@ namespace The-Legend-of-Terra.content.Items.Weapons
 	{
 		public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault("This is an example magic weapon");
+			DisplayName.SetDefault("Fire Rod");
 		}
 
 		public override void SetDefaults()
