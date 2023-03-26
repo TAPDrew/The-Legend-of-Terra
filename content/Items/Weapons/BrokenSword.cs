@@ -2,7 +2,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TestMod.Items.Weapons
+namespace TheLegendofTerra.Content.Items.Weapons
 {
 	public class BrokenSword : ModItem
 	{
