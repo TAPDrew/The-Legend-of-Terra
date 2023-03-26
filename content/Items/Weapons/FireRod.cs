@@ -2,7 +2,7 @@
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace TestMod.Items.Weapons
+namespace TheLegendofTerra.Content.Items.Weapons
 {
 	public class FireRod : ModItem
 	{
