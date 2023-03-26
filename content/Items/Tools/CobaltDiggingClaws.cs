@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace The-Legend-of-Terra.content.Items.Tools
+namespace TheLegendofTerra.Content.Items.Tools
 {
 	public class CobaltDiggingClaws : ModItem
 	{
