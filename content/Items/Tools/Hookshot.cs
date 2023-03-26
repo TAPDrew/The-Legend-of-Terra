@@ -5,7 +5,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using TheLegendofTerra.Content.Projectiles;
 
-namespace TheLegendofTerra.Content.Items/Tools
+namespace TheLegendofTerra.Content.Items.Tools
 {
 	internal class Hookshot : ModItem
 	{
