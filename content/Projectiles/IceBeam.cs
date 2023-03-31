@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameContent.Creative;
 
-namespace TestMod.Items.Projectile
+namespace TheLegendofTerra.content.Projectiles
 {
     public class IceBeam : ModProjectile
     {
