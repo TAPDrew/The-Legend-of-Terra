@@ -2,7 +2,7 @@
 using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
-using TheLegendofTerra.content.Items.Projectiles;
+using TheLegendofTerra.content.Projectiles;
 
 namespace TheLegendofTerra.content.Items.Weapons
 {
