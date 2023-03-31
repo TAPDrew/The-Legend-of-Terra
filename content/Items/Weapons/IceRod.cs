@@ -2,9 +2,9 @@
 using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
-using TestMod.Items.Projectile;
+using TheLegendofTerra.content.Items.Projectiles;
 
-namespace TestMod.Items.Weapons
+namespace TheLegendofTerra.content.Items.Weapons
 {
 	public class IceRod : ModItem
 	{
