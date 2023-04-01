@@ -29,6 +29,7 @@ namespace TheLegendofTerra.Content.Items.Weapons
 			Item.shootSpeed = 7; // How fast the item shoots the projectile.
 			Item.crit = 32; // The percent chance at hitting an enemy with a crit, plus the default amount of 4.
 			Item.mana = 11; // This is how much mana the item uses.
+			Item.UseSound = SoundID.Item20;
 		}
 
 		public override void AddRecipes()
