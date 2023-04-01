@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TheLegendOfTerra.Content.Items
+namespace TheLegendOfTerra.content.Items
 {
     public class FireElement : ModItem
     {
