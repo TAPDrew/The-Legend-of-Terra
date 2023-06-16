@@ -31,7 +31,7 @@ namespace TheLegendofTerra.Content.Projectiles
         //UNFINISHED
         public override void AI()
         {
-            Projectile.position = //to be added
+            Projectile.position = Main.player[Projectile.owner].position;
             Projectile.frameCounter++;
             /*if (Projectile.frameCounter >= 3)
             {
