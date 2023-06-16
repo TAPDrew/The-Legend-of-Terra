@@ -13,7 +13,7 @@ namespace TheLegendofTerra.Content.Projectiles
     {
         public override void SetStaticDefaults()
         {
-            Main.projFrames[Projectile.type] = 2;
+            Main.projFrames[Projectile.type] = 30;
             DisplayName.SetDefault("Spin Attack");
         }
 
@@ -26,21 +26,23 @@ namespace TheLegendofTerra.Content.Projectiles
             Projectile.DamageType = DamageClass.Melee; // Is the projectile shoot by a ranged weapon?
             Projectile.ignoreWater = true; // Does the projectile's speed be influenced by water?
             Projectile.tileCollide = false; // Can the projectile collide with tiles?
-            Projectile.timeLeft = 200;
+            Projectile.timeLeft = 30;
         }
         //UNFINISHED
         public override void AI()
         {
-
+            Projectile.position = //to be added
             Projectile.frameCounter++;
-            if (Projectile.frameCounter >= 3)
+            /*if (Projectile.frameCounter >= 3)
             {
                 Projectile.frameCounter = 0;
                 Projectile.frame++;
                 if (Projectile.frame >= 2)
                     Projectile.frame = 0;
-            }
-            Projectile.rotation = Projectile.velocity.ToRotation() + MathHelper.PiOver2 - MathHelper.PiOver4 * Projectile.spriteDirection;
+            }*/
+            //No clue if this works
+            Projectile.rotation = Projectile.frameCounter * 12 * Projectile.spriteDirection;
+            //OLD CODE: Projectile.rotation = Projectile.velocity.ToRotation() + MathHelper.PiOver2 - MathHelper.PiOver4 * Projectile.spriteDirection;
         }
     }
 }
