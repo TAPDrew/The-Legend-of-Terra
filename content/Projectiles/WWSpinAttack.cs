@@ -9,7 +9,7 @@ using TheLegendofTerra.Content.Projectiles;
 namespace TheLegendofTerra.Content.Projectiles
 {
 
-    public class HeroSwordBeam : ModProjectile
+    public class WWSpin : ModProjectile
     {
         public override void SetStaticDefaults()
         {
