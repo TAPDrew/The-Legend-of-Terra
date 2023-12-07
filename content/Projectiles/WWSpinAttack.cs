@@ -24,7 +24,7 @@ namespace TheLegendofTerra.Content.Projectiles
             Projectile.height = 48; // The height of projectile hitbox
             Projectile.friendly = true; // Can the projectile deal damage to enemies?
             Projectile.DamageType = DamageClass.Melee; // Is the projectile shoot by a ranged weapon?
-            Projectile.ignoreWater = true; // Does the projectile's speed be influenced by water?
+            Projectile.ignoreWater = true; // Does the projectile's trajectory ignore the influence of water?
             Projectile.tileCollide = false; // Can the projectile collide with tiles?
             Projectile.timeLeft = 30;
         }
